@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+*.log
+.vscode/
+# Generated QR code cache
+libraries/phpqrcode/cache/
+
+# Local debugging files
+info.php
+test.php
+gd_check.php
+hash.php
+admin/test_qr.php
+
+# Sensitive environment files
+.env
+.env.*
+!.env.example
